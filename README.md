@@ -20,20 +20,20 @@ Our experiments were conducted on a machine running Ubuntu 20.04 LTS. We provide
 ## Main function
 - File "main.cpp": is used to conduct comparative experiments and output results.
 
-* Datasets
+## Datasets
 - Folder "dataset": contains five processed real-world datasets as introduced above.
 
-* Useful tools
+## Useful tools
 - File "IOUtil.h": is used to load the datasets.
 - File "Point.h": is used to represent the elements in the datasets and process some related calculations.
 
-* Submodular functions
+## Submodular functions
 - File "SubmodularFunction.h": is the base class of the following three submodular functions.
 - File "GauVecSubFunc.h": is the submodular function in application "Online Kernel Prototype Selection". The corresponding datasets are "ForestCover", "CreditCardFraud", and "KDDCup99".
 - File "LapVecSubFunc.h": is the submodular function used in application "Online Video Summarization". The corresponding datasets is "YouTube".
 - File "TweetTexSubFunc.h": is the submodular function used in application "Online Text Summarization". The corresponding datasets is "Twitter".
 
-* Evaluated algorithms
+## Evaluated algorithms
 - File "SubsetSelectionAlgorithm.h": is the base class of the following six algorithms.
 - File "OnlineAdaptive.h": is the online algorithm that we proposed.
 - File "OnlineNonAdaptive.h": is the non-adaptive version of our OnlineAdaptive.
