@@ -29,16 +29,16 @@ Our experiments were conducted on a machine running Ubuntu 20.04 LTS. We provide
 
 ## Submodular functions
 - File "SubmodularFunction.h": is the base class of the following three submodular functions.
-- File "GauVecSubFunc.h": is the submodular function in application "Online Kernel Prototype Selection". The corresponding datasets are "ForestCover", "CreditCardFraud", and "KDDCup99".
-- File "LapVecSubFunc.h": is the submodular function used in application "Online Video Summarization". The corresponding datasets is "YouTube".
-- File "TweetTexSubFunc.h": is the submodular function used in application "Online Text Summarization". The corresponding datasets is "Twitter".
+- File "GauVecSubFunc.h": is the submodular function in the application "Online Kernel Prototype Selection". The corresponding datasets are "ForestCover", "CreditCardFraud", and "KDDCup99".
+- File "LapVecSubFunc.h": is the submodular function used in the application "Online Video Summarization". The corresponding dataset is "YouTube".
+- File "TweetTexSubFunc.h": is the submodular function used in the application "Online Text Summarization". The corresponding dataset is "Twitter".
 
 ## Evaluated algorithms
 - File "SubsetSelectionAlgorithm.h": is the base class of the following six algorithms.
 - File "OnlineAdaptive.h": is the online algorithm that we proposed.
-- File "OnlineNonAdaptive.h": is the non-adaptive version of our OnlineAdaptive.
+- File "OnlineNonAdaptive.h": is the non-adaptive version of our OnlineAdaptive algorithm.
 - File "Greedy.h": is the offline algorithm proposed in Ryan Gomes and Andreas Krause. Budgeted nonparametric learning from data streams. In Proceedings of the International Conference on Machine Learning (ICML), pages 391–398, 2010.
 - File "IndependentSetImprovement.h": is the online algorithm proposed in Amit Chakrabarti and Sagar Kale. Submodular maximization meets streaming: matchings, matroids, and more. Mathematical Programming,154:225–247, 2015.
 - File "StreamingGreedy.h": is the online algorithm proposed in Chandra Chekuri, Shalmoli Gupta, and Kent Quanrud. Streaming algorithms for submodular function maximization. In Proceedings of the International Colloquium on Automata, Languages, and Programming (ICALP), pages 318–330, 2015.
-- File "Preemption.h": is the online algorithm proposed in Niv Buchbinder, Moran Feldman, and Roy Schwartz. Online submodular maximization with preemption. ACM Transactions on Algorithms, 15(3):30:1–30:31, 2019.
-- File "FreeDisposal.h": is the online algorithm proposed in T.-H. Hubert Chan, Zhiyi Huang, Shaofeng H.-C. Jiang, Ning Kang, and Zhihao Gavin Tang. Online submodular maximization with free disposal. ACM Transactions on Algorithms, 14(4):56:156:29, 2018.
+- File "Preemption.h": is the online algorithm proposed in Niv Buchbinder, Moran Feldman, and Roy Schwartz. Online submodular maximization with preemption. ACM Transactions on Algorithms, 15(3): 30:1–30:31, 2019.
+- File "FreeDisposal.h": is the online algorithm proposed in T.-H. Hubert Chan, Zhiyi Huang, Shaofeng H.-C. Jiang, Ning Kang, and Zhihao Gavin Tang. Online submodular maximization with free disposal. ACM Transactions on Algorithms, 14(4): 56:1-56:29, 2018.
