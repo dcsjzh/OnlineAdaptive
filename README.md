@@ -17,7 +17,7 @@ This repository also provides five processed real-world datasets used in our exp
 # How to reproduce the experiments in our paper
 Our experiments were conducted on a machine running Ubuntu 20.04 LTS. We provide the explanations of the files as follows:
 
-* Main function
+## Main function
 - File "main.cpp": is used to conduct comparative experiments and output results.
 
 * Datasets
